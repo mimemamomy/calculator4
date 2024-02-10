@@ -9,9 +9,6 @@
     tools:context=".MainActivity">
 
 
-
-
-
     <View
         android:id="@+id/view"
         class="androidx.appcompat.widget.AppCompatImageView"
@@ -26,22 +23,114 @@
     <View
         android:id="@+id/view2"
         class="androidx.appcompat.widget.AppCompatCheckBox"
-        android:layout_width="350dp"
-        android:layout_height="380dp"
+        android:layout_width="354dp"
+        android:layout_height="490dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.543"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498" />
+        app:layout_constraintVertical_bias="0.688" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="68dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="C"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:visibility="visible"
+        app:cornerRadius="15px"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="68dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="C"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:visibility="visible"
+        app:cornerRadius="15px"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="68dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="256dp"
+        android:backgroundTint="#A1A1A1"
+        android:text="+"
+        android:textSize="48sp"
+        android:textStyle="normal"
+        android:visibility="visible"
+        app:cornerRadius="15px"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="54dp"
-        android:layout_height="32dp"
-        android:backgroundTint="@color/design_default_color_error"
-        android:text="C"
-        android:textSize="10sp"
+        android:layout_width="68dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="104dp"
+        android:backgroundTint="#A1A1A1"
+        android:text="√"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:visibility="visible"
+        app:cornerRadius="15px"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="68dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#6A5B52"
+        android:text="+/-"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:visibility="visible"
+        app:cornerRadius="15px"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="68dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="152dp"
+        android:backgroundTint="#A1A1A1"
+        android:text="xʸ"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:visibility="visible"
+        app:cornerRadius="15px"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="68dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#A1A1A1"
+        android:text="%"
+        android:textSize="24sp"
         android:textStyle="normal"
         android:visibility="visible"
         app:cornerRadius="15px"
