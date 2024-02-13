@@ -48,7 +48,7 @@
         app:layout_constraintTop_toTopOf="@+id/view2" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button23"
         android:layout_width="93dp"
         android:layout_height="62dp"
         android:layout_marginStart="128dp"
@@ -258,7 +258,7 @@
         app:layout_constraintTop_toTopOf="@+id/view2" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button22"
         android:layout_width="93dp"
         android:layout_height="62dp"
         android:layout_marginStart="16dp"
@@ -273,7 +273,7 @@
         app:layout_constraintTop_toTopOf="@+id/view2" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button21"
         android:layout_width="93dp"
         android:layout_height="62dp"
         android:layout_marginStart="16dp"
@@ -288,7 +288,7 @@
         app:layout_constraintTop_toTopOf="@+id/view2" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button19"
         android:layout_width="93dp"
         android:layout_height="62dp"
         android:layout_marginStart="16dp"
@@ -303,7 +303,7 @@
         app:layout_constraintTop_toTopOf="@+id/view2" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button20"
         android:layout_width="93dp"
         android:layout_height="62dp"
         android:layout_marginStart="16dp"
@@ -351,7 +351,6 @@
         android:id="@+id/textView"
         android:layout_width="273dp"
         android:layout_height="44dp"
-        android:autoText="false"
         android:background="#00000000"
         android:backgroundTint="#000000"
         android:text="3 + 3/8 + 66 + 4/7 "
